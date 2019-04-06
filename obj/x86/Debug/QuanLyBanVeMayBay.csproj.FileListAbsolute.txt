@@ -1,0 +1,11 @@
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_DoanhThuThang.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_Login.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\BCDoanhThuNam.frm_DoanhThuNam.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_KhachHang.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_Main.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\QuanLyBanVeMayBay.frm_QuanlyNhanVien.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_SanBay.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_ChangBay.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\QuanLyBanVeMayBay.Properties.Resources.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_ThayDoiPass.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\QuanLyBanVeMayBay.csproj.GenerateResource.Cache

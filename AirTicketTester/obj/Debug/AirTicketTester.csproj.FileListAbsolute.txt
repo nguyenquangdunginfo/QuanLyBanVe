@@ -1,0 +1,7 @@
+C:\Users\vngame\Desktop\AirTicketManager\AirTicketTester\bin\Debug\AirTicketTester.dll
+C:\Users\vngame\Desktop\AirTicketManager\AirTicketTester\bin\Debug\AirTicketTester.pdb
+C:\Users\vngame\Desktop\AirTicketManager\AirTicketTester\bin\Debug\QuanLyBanVeMayBay.exe
+C:\Users\vngame\Desktop\AirTicketManager\AirTicketTester\bin\Debug\QuanLyBanVeMayBay.pdb
+C:\Users\vngame\Desktop\AirTicketManager\AirTicketTester\obj\Debug\AirTicketTester.csprojResolveAssemblyReference.cache
+C:\Users\vngame\Desktop\AirTicketManager\AirTicketTester\obj\Debug\AirTicketTester.dll
+C:\Users\vngame\Desktop\AirTicketManager\AirTicketTester\obj\Debug\AirTicketTester.pdb

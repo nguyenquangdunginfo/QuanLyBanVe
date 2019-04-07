@@ -1,0 +1,11 @@
+04/08/2019 12:38:57 AM	This log contains information about the import operation of the script 'DataAirTicket.sql' into project 'DatabaseTest' on computer 'VNPRO' by user'vngame.
+04/08/2019 12:38:57 AM	Started importing file: D:\KIỂM THỬ PHẦN MỀM\ĐỀ TÀI\DataBase\DataAirTicket.sql 
+04/08/2019 12:38:57 AM	File name D:\KIỂM THỬ PHẦN MỀM\ĐỀ TÀI\DataBase\DataAirTicket.sql (size: 17558)
+04/08/2019 12:38:57 AM	Parsing import script
+04/08/2019 12:38:57 AM	Total number of batches in script: 58
+04/08/2019 12:38:57 AM	Total number of statements in script: 80
+04/08/2019 12:38:57 AM	The script was successfully imported into the project.
+04/08/2019 12:38:58 AM	Analyzing schema objects...
+04/08/2019 12:38:58 AM	In the script that you provided to the import operation, one or more statements were not fully understood. These statements were moved to the C:\Users\vngame\Desktop\AirTicketManager\DatabaseTest\Scripts\ScriptsIgnoredOnImport.sql file. Review the file contents for additional information.
+04/08/2019 12:38:58 AM	A summary of the import operation was saved to the log file C:\Users\vngame\Desktop\AirTicketManager\DatabaseTest\Import Script Logs\DataAirTicket_sql_20190407053857.log.
+04/08/2019 12:38:58 AM	Click Finish to continue...

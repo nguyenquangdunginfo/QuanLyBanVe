@@ -12,7 +12,7 @@ namespace AirTicketBookingManagement
 	 {
 	
          public  SqlConnection cn;
-         string connnectionString = @"server=.\QD;database= AirTicketDatabase;integrated security=true";
+         string connnectionString = @"server=.\SQLEXPRESS;database= AirTicketDatabase;integrated security=true";
          
          
 	     public  Connection()

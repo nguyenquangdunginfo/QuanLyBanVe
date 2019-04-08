@@ -13,7 +13,7 @@ namespace AirTicketBookingManagement
     public partial class frm_ThayDoiPass : Form
     {
 
-        string strcon = @"server=.\QD;database= AirTicketDatabase;integrated security=true";
+        string strcon = @"server=.\SQLEXPRESS;database= AirTicketDatabase;integrated security=true";
         
         SqlDataAdapter dtbAirTicket;
         SqlConnection conn;

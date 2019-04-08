@@ -29,9 +29,9 @@ namespace AirTicketBookingManagement
         }
         Connection conn = new Connection();
 
-        public void INSERT(string CMND, string TENKH, string DIENTHOAI, string DIACHI)
+        public void INSERT(string SanBayDi, string SanBayDen, DateTime ThoiGian, string HangVe,int SoLuong, int CMND, string HoTenKH, int NamSinh, int SoDienThoai, string DiaChi, int TongTienVe)
         {
-            string sql = "INSERT INTO KHACHHANG(CMND,TENKH,DIENTHOAI,DIACHI) VALUES (N'" + CMND + "',N'" + TENKH + "',N'" + DIENTHOAI + "',N'" + DIACHI + "')";
+            string sql = "INSERT INTO ChiTietDatVe(SanBayDi,SanBayDen,ThoiGian,HangVe,SoLuong,CMND,HoTenKH,NamSinh,SoDienThoai,DiaChi,TongTienVe) VALUES (N'" + SanBayDi + "',N'" + SanBayDen + "',N'" + ThoiGian + "',N'" + HangVe + "',N'" + SoLuong + "', N'" + CMND + "', N'" + HoTenKH + "', N'" + NamSinh + "',  N'" + SoDienThoai + "',  N'" + DiaChi + "' ,  N'" + TongTienVe + "')";
             conn.KetNoi();
             SqlCommand cm = new SqlCommand(sql, conn.cn);
             cm.CommandType = CommandType.Text;
@@ -65,15 +65,15 @@ namespace AirTicketBookingManagement
      
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if (txtCMND.Text != "" && txtTen.Text != "")
-            {
+            //if (txtCMND.Text != "" && txtTen.Text != "")
+            //{
 
-                INSERT(txtCMND.Text, txtTen.Text, txtDienThoai.Text, txtDiaChi.Text);
-                MessageBox.Show("Đã lưu thông tin khách hàng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //    INSERT(cbFrom.SelectedValue.ToString(), cbTo.SelectedValue.ToString(), TimeKH.Value, cbHangVe.SelectedValue.ToString(), int.Parse(cbSoLuong.Text), int.Parse(txtCMND.Text), txtTen.Text, int.Parse(txtDienThoai.Text), int.Parse(txtNamSinh.Text), txtDiaChi.Text, int.Parse(txtTongTien.Text));
+            //    MessageBox.Show("Đã lưu thông tin khách hàng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            }
-            else
-                MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //}
+            //else
+            //    MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 
         }
         private void btnExit_Click(object sender, EventArgs e)

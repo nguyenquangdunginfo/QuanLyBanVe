@@ -12,6 +12,7 @@ namespace AirTicketTester
         [TestMethod]
         public void TestMethod1()
         {
+            
         }
     }
 }

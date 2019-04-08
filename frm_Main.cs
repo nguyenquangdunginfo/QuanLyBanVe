@@ -72,8 +72,7 @@ namespace AirTicketBookingManagement
 
         private void DoanhThuThang_Click(object sender, EventArgs e)
         {
-            frm_DoanhThuThang doanhthuthang = new frm_DoanhThuThang();
-                doanhthuthang.ShowDialog();
+            
         }
 
         private void DoanhThuNam_Click(object sender, EventArgs e)

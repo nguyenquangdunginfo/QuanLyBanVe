@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_DatVe));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.txtTuoi = new System.Windows.Forms.TextBox();
             this.btnClear = new System.Windows.Forms.Button();
             this.rtbInfo = new System.Windows.Forms.RichTextBox();
@@ -58,7 +59,6 @@
             this.cbFrom = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -100,6 +100,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Phòng vé 247";
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Blue;
+            this.label11.Location = new System.Drawing.Point(99, 243);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(397, 25);
+            this.label11.TabIndex = 27;
+            this.label11.Text = "TÓM TẮT THÔNG TIN CHUYẾN BAY";
+            // 
             // txtTuoi
             // 
             this.txtTuoi.Location = new System.Drawing.Point(396, 83);
@@ -110,7 +121,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(331, 206);
+            this.btnClear.Location = new System.Drawing.Point(330, 207);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(95, 23);
             this.btnClear.TabIndex = 25;
@@ -128,7 +139,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(432, 207);
+            this.btnExit.Location = new System.Drawing.Point(431, 207);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(93, 23);
             this.btnExit.TabIndex = 23;
@@ -138,7 +149,7 @@
             // 
             // btnIn
             // 
-            this.btnIn.Location = new System.Drawing.Point(234, 207);
+            this.btnIn.Location = new System.Drawing.Point(154, 208);
             this.btnIn.Name = "btnIn";
             this.btnIn.Size = new System.Drawing.Size(90, 23);
             this.btnIn.TabIndex = 22;
@@ -157,7 +168,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(51, 206);
+            this.btnSave.Location = new System.Drawing.Point(250, 207);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(76, 24);
             this.btnSave.TabIndex = 20;
@@ -178,7 +189,7 @@
             this.txtDienThoai.Name = "txtDienThoai";
             this.txtDienThoai.Size = new System.Drawing.Size(164, 20);
             this.txtDienThoai.TabIndex = 18;
-            this.txtDienThoai.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDienThoai_KeyPress);
+            this.txtDienThoai.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCMND_KeyPress);
             // 
             // txtCMND
             // 
@@ -221,7 +232,7 @@
             this.txtNamSinh.Name = "txtNamSinh";
             this.txtNamSinh.Size = new System.Drawing.Size(178, 20);
             this.txtNamSinh.TabIndex = 15;
-            this.txtNamSinh.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNamSinh_KeyPress);
+            this.txtNamSinh.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCMND_KeyPress);
             // 
             // label6
             // 
@@ -275,7 +286,7 @@
             // 
             // btnThanhToan
             // 
-            this.btnThanhToan.Location = new System.Drawing.Point(133, 206);
+            this.btnThanhToan.Location = new System.Drawing.Point(52, 207);
             this.btnThanhToan.Name = "btnThanhToan";
             this.btnThanhToan.Size = new System.Drawing.Size(95, 23);
             this.btnThanhToan.TabIndex = 9;
@@ -356,17 +367,6 @@
             this.label1.Size = new System.Drawing.Size(23, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Từ:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Blue;
-            this.label11.Location = new System.Drawing.Point(99, 243);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(397, 25);
-            this.label11.TabIndex = 27;
-            this.label11.Text = "TÓM TẮT THÔNG TIN CHUYẾN BAY";
             // 
             // frm_DatVe
             // 

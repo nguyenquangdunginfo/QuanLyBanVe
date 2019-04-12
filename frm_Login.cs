@@ -19,6 +19,11 @@ namespace AirTicketBookingManagement
       
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            Login();
+        }
+
+        public void Login()
+        {
             DataTable dulieu = conn.ExecuteData("select * from Account where Username ='" + txtUser.Text + "' and Password='" + txtPass.Text + "' ");
             if (dulieu.Rows.Count > 0)
             {
@@ -30,21 +35,24 @@ namespace AirTicketBookingManagement
                 main.Show();
                 this.Hide();
             }
-            else if(txtUser.Text == "")
+            else if (txtUser.Text == "")
             {
-                     MessageBox.Show("Vui lòng nhập Username");
+                MessageBox.Show("Vui lòng nhập Username");
             }
-            else if(txtPass.Text == "")
+            else if (txtPass.Text == "")
             {
-                     MessageBox.Show("Vui lòng nhập Password");
+                MessageBox.Show("Vui lòng nhập Password");
             }
             else
             {
                 MessageBox.Show("Đăng nhập không thành công. Vui lòng kiểm tra lại Username và Password! ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtPass.Clear();
+                txtUser.Clear();
             }
-           
+
         }
-       
+
+
         private void btnCancel_Click(object sender, EventArgs e)
         {
             Application.Exit();

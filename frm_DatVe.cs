@@ -29,7 +29,7 @@ namespace AirTicketBookingManagement
         }
         Connection conn = new Connection();
 
-        public void INSERT(string SanBayDi, string SanBayDen, DateTime ThoiGian, string HangVe,int SoLuong, int CMND, string HoTenKH, int NamSinh, int SoDienThoai, string DiaChi, int TongTienVe)
+        public void INSERT(string SanBayDi, string SanBayDen, string ThoiGian, string HangVe, string SoLuong, string CMND, string HoTenKH, string NamSinh, string SoDienThoai, string DiaChi, string TongTienVe)
         {
             string sql = "INSERT INTO ChiTietDatVe(SanBayDi,SanBayDen,ThoiGian,HangVe,SoLuong,CMND,HoTenKH,NamSinh,SoDienThoai,DiaChi,TongTienVe) VALUES (N'" + SanBayDi + "',N'" + SanBayDen + "',N'" + ThoiGian + "',N'" + HangVe + "',N'" + SoLuong + "', N'" + CMND + "', N'" + HoTenKH + "', N'" + NamSinh + "',  N'" + SoDienThoai + "',  N'" + DiaChi + "' ,  N'" + TongTienVe + "')";
             conn.KetNoi();
@@ -38,6 +38,7 @@ namespace AirTicketBookingManagement
             cm.ExecuteNonQuery();
             conn.cn.Close();
         }
+        
         private void frm_DatVe_Load(object sender, EventArgs e)
         {
             
@@ -46,6 +47,7 @@ namespace AirTicketBookingManagement
             cbFrom.ValueMember = "MaSanBay";
 
             btnIn.Enabled = false;
+            btnSave.Enabled = false;
 
             cbHangVe.Items.Add("Business");
             cbHangVe.Items.Add("Economy");
@@ -65,15 +67,15 @@ namespace AirTicketBookingManagement
      
         private void btnSave_Click(object sender, EventArgs e)
         {
-            //if (txtCMND.Text != "" && txtTen.Text != "")
-            //{
+            if (txtCMND.Text != "" && txtTen.Text != "")
+            {
 
-            //    INSERT(cbFrom.SelectedValue.ToString(), cbTo.SelectedValue.ToString(), TimeKH.Value, cbHangVe.SelectedValue.ToString(), int.Parse(cbSoLuong.Text), int.Parse(txtCMND.Text), txtTen.Text, int.Parse(txtDienThoai.Text), int.Parse(txtNamSinh.Text), txtDiaChi.Text, int.Parse(txtTongTien.Text));
-            //    MessageBox.Show("Đã lưu thông tin khách hàng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            //}
-            //else
-            //    MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                INSERT(cbFrom.Text, cbTo.Text, TimeKH.Text, cbHangVe.Text, cbSoLuong.Text, txtCMND.Text, txtTen.Text, txtNamSinh.Text, txtDienThoai.Text, txtDiaChi.Text, txtTongTien.Text);
+                MessageBox.Show("Đã lưu thông tin khách hàng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+              
+            }
+            else
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 
         }
         private void btnExit_Click(object sender, EventArgs e)
@@ -130,6 +132,7 @@ namespace AirTicketBookingManagement
                 int giave = 0;
 
                 btnIn.Enabled = true;
+                btnSave.Enabled = true;
 
 
                 float namnhapvao, tuoi;
@@ -199,29 +202,5 @@ namespace AirTicketBookingManagement
                 MessageBox.Show("Vui lòng nhập số nguyên.");
             }
         }
-
-        private void txtNamSinh_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (char.IsLetter(e.KeyChar) || 
-            char.IsSymbol(e.KeyChar) || 
-            char.IsWhiteSpace(e.KeyChar) || 
-            char.IsPunctuation(e.KeyChar))   
-            {
-                e.Handled = true;
-                MessageBox.Show("Vui lòng nhập số nguyên.");
-            }
-        }
-
-        private void txtDienThoai_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (char.IsLetter(e.KeyChar) || 
-            char.IsSymbol(e.KeyChar) || 
-            char.IsWhiteSpace(e.KeyChar) || 
-            char.IsPunctuation(e.KeyChar))   
-            {
-                e.Handled = true; 
-                MessageBox.Show("Vui lòng nhập số nguyên.");
-            }
-        }       
     }
 }

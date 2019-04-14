@@ -42,10 +42,11 @@ namespace AirTicketTester
         public void Test_Pass_NotEmpty()
         {
             Connection conn = new Connection();
+            string mess = "Mat khau khong duoc de trong";
             DataTable dulieu_tong = conn.ExecuteData("select * from Account");
             int count_dulieu_tong = dulieu_tong.Rows.Count;
             DataTable dulieu = conn.ExecuteData("select * from Account where Password IS NOT NULL");
-            Assert.IsTrue(dulieu.Rows.Count == count_dulieu_tong);
+            Assert.IsTrue(dulieu.Rows.Count == count_dulieu_tong, mess);
         }
         [TestMethod]
         public void Test_Login_Fail()

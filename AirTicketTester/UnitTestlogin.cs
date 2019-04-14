@@ -21,6 +21,16 @@ namespace AirTicketTester
         }
 
         [TestMethod]
+        public void Test_User_notEmpty()
+        {
+            Connection conn = new Connection();
+            DataTable dulieu_tong = conn.ExecuteData("select * from Account");
+            int count_dulieu_tong = dulieu_tong.Rows.Count;
+            DataTable dulieu = conn.ExecuteData("select * from Account where Username IS NOT NULL");
+            Assert.IsTrue(dulieu.Rows.Count == count_dulieu_tong);
+        }
+
+        [TestMethod]
         public void Test_pass_notEmpty()
         {
             Connection conn = new Connection();

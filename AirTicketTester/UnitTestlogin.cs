@@ -31,7 +31,7 @@ namespace AirTicketTester
         }
 
         [TestMethod]
-        public void Test_Pass_NotEmpty()
+        public void Test_Pass_NotEmptya()
         {
             Connection conn = new Connection();
             DataTable dulieu_tong = conn.ExecuteData("select * from Account");

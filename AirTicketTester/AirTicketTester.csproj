@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitTestChangePass.cs" />
     <Compile Include="UnitTestLogin.cs" />
   </ItemGroup>
   <ItemGroup>

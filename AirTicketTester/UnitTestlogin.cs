@@ -31,10 +31,11 @@ namespace AirTicketTester
         public void Test_User_NotEmpty()
         {
             Connection conn = new Connection();
+            string mess = "Username phai la dang chuoi ky tu";
             DataTable dulieu_tong = conn.ExecuteData("select * from Account");
             int count_dulieu_tong = dulieu_tong.Rows.Count;
-            DataTable dulieu = conn.ExecuteData("select * from Account where Username IS NOT NULL ");
-            Assert.IsTrue(dulieu.Rows.Count == count_dulieu_tong);
+            DataTable dulieu = conn.ExecuteData("select * from Account where Username is not null and ISNUMERIC(Username) = 0");
+            Assert.IsTrue(dulieu.Rows.Count == count_dulieu_tong, mess);
         }
 
         [TestMethod]

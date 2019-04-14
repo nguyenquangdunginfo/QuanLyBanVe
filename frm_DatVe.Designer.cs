@@ -59,11 +59,13 @@
             this.cbFrom = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.txtTuoi);
             this.groupBox1.Controls.Add(this.btnClear);
@@ -312,7 +314,6 @@
             this.cbSoLuong.Name = "cbSoLuong";
             this.cbSoLuong.Size = new System.Drawing.Size(129, 21);
             this.cbSoLuong.TabIndex = 7;
-            this.cbSoLuong.Text = "Số lượng";
             // 
             // TimeKH
             // 
@@ -368,6 +369,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Từ:";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(396, 28);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(49, 13);
+            this.label12.TabIndex = 28;
+            this.label12.Text = "Số lượng";
+            // 
             // frm_DatVe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -416,5 +426,6 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.TextBox txtTuoi;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
     }
 }

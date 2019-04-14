@@ -100,7 +100,32 @@ namespace AirTicketBookingManagement
         }
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
-            if (txtCMND.Text == "")
+            if (cbFrom.Text == "")
+            {
+                MessageBox.Show("Vui lòng chọn sân bay đi");
+                cbFrom.Focus();
+            }
+            else if (cbTo.Text == "")
+            {
+                MessageBox.Show("Vui lòng chọn sân bay đến");
+                cbTo.Focus();
+            }
+            else if (TimeKH.Text == "")
+            {
+                MessageBox.Show("Vui lòng chọn ngày khởi hành");
+                TimeKH.Focus();
+            }
+            else if (cbHangVe.Text == "")
+            {
+                MessageBox.Show("Vui lòng chọn hạng vé");
+                cbHangVe.Focus();
+            }
+            else if (cbSoLuong.Text == "")
+            {
+                MessageBox.Show("Vui lòng chọn số lượng vé");
+                cbSoLuong.Focus();
+            }
+            else if (txtCMND.Text == "")
             {
                 MessageBox.Show("Vui lòng nhập số chứng minh nhân dân hoặc số thẻ căn cước công dân");
                 txtCMND.Focus();
@@ -150,7 +175,7 @@ namespace AirTicketBookingManagement
 
                 }
 
-                if (cbHangVe.SelectedItem == "Business")
+                if (cbHangVe.Text == "Business")
                 {
                     if (tuoi < 11)
                         giave = GiaVeBusinessTreEm[(int)Hang.Business];
@@ -158,7 +183,7 @@ namespace AirTicketBookingManagement
                         giave = GiaBusinessNguoiLon[(int)Hang.Business];
                 }
 
-                if (cbHangVe.SelectedItem == "Economy")
+                if (cbHangVe.Text == "Economy")
                 {
                     if (tuoi < 11)
                         giave = GiaEconomyTreEm[(int)Hang.Business];

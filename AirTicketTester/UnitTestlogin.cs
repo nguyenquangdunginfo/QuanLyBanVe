@@ -13,7 +13,7 @@ namespace AirTicketTester
     public class UnitTestlogin
     {
         [TestMethod]
-        public void TestMethodLogin001()
+        public void Test_Login_Success()
         {
             Connection conn = new Connection();
             DataTable dulieu = conn.ExecuteData("select * from Account where Username ='admin' and Password='123'");

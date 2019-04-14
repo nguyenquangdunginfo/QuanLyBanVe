@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="89df4131-9e9e-43ef-bf4d-8cfc56393b38" name="vngame@VNPRO 2019-04-14 16:43:26" runUser="vnpro\vngame" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="bf55e2ff-5970-4917-b2b7-5a3901a4538a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="vngame_VNPRO 2019-04-14 16_43_26">
+      <DeploymentItem filename="C:\Users\vngame\Desktop\AirTicketManager\bin\Debug\QuanLyBanVeMayBay.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-04-14T16:43:26.1094920+07:00" queuing="2019-04-14T16:43:26.3746924+07:00" start="2019-04-14T16:43:26.4370925+07:00" finish="2019-04-14T16:43:26.9050934+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_pass_notEmpty" storage="c:\users\vngame\desktop\airticketmanager\airtickettester\bin\debug\airtickettester.dll" id="10416c8f-5f01-cd88-7b75-04d9318de093">
+      <Execution id="2b7f860e-92d9-4982-98f9-e30fef13cf80" />
+      <TestMethod codeBase="C:/Users/vngame/Desktop/AirTicketManager/AirTicketTester/bin/Debug/AirTicketTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AirTicketTester.UnitTestlogin, AirTicketTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_pass_notEmpty" />
+    </UnitTest>
+    <UnitTest name="TestMethodLogin001" storage="c:\users\vngame\desktop\airticketmanager\airtickettester\bin\debug\airtickettester.dll" id="ba8a3e65-242d-1aac-a5ba-be01e910616c">
+      <Execution id="e1cc6d83-da16-40f5-9051-aa2941b124b9" />
+      <TestMethod codeBase="C:/Users/vngame/Desktop/AirTicketManager/AirTicketTester/bin/Debug/AirTicketTester.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="AirTicketTester.UnitTestlogin, AirTicketTester, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethodLogin001" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="10416c8f-5f01-cd88-7b75-04d9318de093" executionId="2b7f860e-92d9-4982-98f9-e30fef13cf80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba8a3e65-242d-1aac-a5ba-be01e910616c" executionId="e1cc6d83-da16-40f5-9051-aa2941b124b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2b7f860e-92d9-4982-98f9-e30fef13cf80" testId="10416c8f-5f01-cd88-7b75-04d9318de093" testName="Test_pass_notEmpty" computerName="VNPRO" duration="00:00:00.0831131" startTime="2019-04-14T16:43:26.4526926+07:00" endTime="2019-04-14T16:43:26.8738933+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b7f860e-92d9-4982-98f9-e30fef13cf80">
+    </UnitTestResult>
+    <UnitTestResult executionId="e1cc6d83-da16-40f5-9051-aa2941b124b9" testId="ba8a3e65-242d-1aac-a5ba-be01e910616c" testName="TestMethodLogin001" computerName="VNPRO" duration="00:00:00.0010658" startTime="2019-04-14T16:43:26.8738933+07:00" endTime="2019-04-14T16:43:26.8738933+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1cc6d83-da16-40f5-9051-aa2941b124b9">
+    </UnitTestResult>
+  </Results>
+</TestRun>

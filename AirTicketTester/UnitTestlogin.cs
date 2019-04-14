@@ -10,7 +10,7 @@ using AirTicketBookingManagement;
 namespace AirTicketTester
 {
     [TestClass]
-    public class UnitTestlogin
+    public class UnitTestLogin
     {
         [TestMethod]
         public void Test_Login_Success()
@@ -38,6 +38,13 @@ namespace AirTicketTester
             int count_dulieu_tong = dulieu_tong.Rows.Count;
             DataTable dulieu = conn.ExecuteData("select * from Account where Password IS NOT NULL");
             Assert.IsTrue(dulieu.Rows.Count == count_dulieu_tong);
+        }
+        [TestMethod]
+        public void Test_Login_Fail()
+        {
+            Connection conn = new Connection();
+            DataTable dulieu = conn.ExecuteData("select * from Account where Username ='admin123' and Password='1234'");
+            Assert.IsTrue(dulieu.Rows.Count > 0);
         }
 
     }

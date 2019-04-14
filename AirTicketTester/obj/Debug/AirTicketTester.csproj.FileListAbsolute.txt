@@ -9,3 +9,5 @@ C:\Users\vngame\Desktop\AirTicketManager\AirTicketTester\bin\Debug\QuanLyBanVeMa
 C:\Users\vngame\Desktop\AirTicketManager\AirTicketTester\obj\Debug\AirTicketTester.csprojAssemblyReference.cache
 C:\Users\vngame\Desktop\AirTicketManager\AirTicketTester\obj\Debug\AirTicketTester.csproj.CoreCompileInputs.cache
 C:\Users\vngame\Desktop\AirTicketManager\AirTicketTester\obj\Debug\AirTicketTester.csproj.CopyComplete
+C:\Users\vngame\Desktop\AirTicketManager\AirTicketTester\obj\Debug\Interop.AccessibilityCplAdminLib.dll
+C:\Users\vngame\Desktop\AirTicketManager\AirTicketTester\obj\Debug\AirTicketTester.csproj.ResolveComReference.cache

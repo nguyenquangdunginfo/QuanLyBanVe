@@ -34,7 +34,4 @@ C:\Users\vngame\Desktop\New folder\AirTicketManager\obj\x86\Debug\AirTicketBooki
 C:\Users\vngame\Desktop\New folder\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.csproj.GenerateResource.Cache
 C:\Users\vngame\Desktop\New folder\AirTicketManager\obj\x86\Debug\QuanLyBanVeMayBay.exe
 C:\Users\vngame\Desktop\New folder\AirTicketManager\obj\x86\Debug\QuanLyBanVeMayBay.pdb
-C:\Users\vngame\Desktop\AirTicketManager\bin\Debug\Microsoft.SqlServer.Types.dll
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.csprojAssemblyReference.cache
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.csproj.CoreCompileInputs.cache
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.csproj.CopyComplete
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.csprojResolveAssemblyReference.cache

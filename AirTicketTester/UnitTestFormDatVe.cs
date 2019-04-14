@@ -5,7 +5,7 @@ using AirTicketBookingManagement;
 namespace AirTicketTester
 {
     [TestClass]
-    public class UnitTestSearch
+    public class UnitTestFormDatVe
     {
         [TestMethod]
         public void TestSearchCMNDKH()

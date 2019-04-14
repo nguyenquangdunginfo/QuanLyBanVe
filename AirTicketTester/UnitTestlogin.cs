@@ -5,6 +5,7 @@ using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Data;
 using AirTicketBookingManagement;
+using System.Windows.Forms;
 
 
 namespace AirTicketTester
@@ -12,12 +13,18 @@ namespace AirTicketTester
     [TestClass]
     public class UnitTestLogin
     {
+        private frm_Login frm_login;
+        private frm_Main frm_main;
+
+
         [TestMethod]
         public void Test_Login_Success()
         {
             Connection conn = new Connection();
-            DataTable dulieu = conn.ExecuteData("select * from Account where Username ='admin' and Password='123'");
-            Assert.IsTrue(dulieu.Rows.Count > 0);
+            string mess = "kiem tra lai thong tin dang nhap";
+            frm_login = new frm_Login();
+            DataTable dulieu = conn.ExecuteData("select * from Account where Username = 'admin' and Password='123'");
+            Assert.IsTrue(dulieu.Rows.Count > 0, mess);
         }
 
         [TestMethod]
@@ -26,7 +33,7 @@ namespace AirTicketTester
             Connection conn = new Connection();
             DataTable dulieu_tong = conn.ExecuteData("select * from Account");
             int count_dulieu_tong = dulieu_tong.Rows.Count;
-            DataTable dulieu = conn.ExecuteData("select * from Account where Username IS NOT NULL");
+            DataTable dulieu = conn.ExecuteData("select * from Account where Username IS NOT NULL ");
             Assert.IsTrue(dulieu.Rows.Count == count_dulieu_tong);
         }
 
@@ -45,6 +52,12 @@ namespace AirTicketTester
             Connection conn = new Connection();
             DataTable dulieu = conn.ExecuteData("select * from Account where Username ='admin123' and Password='1234'");
             Assert.IsTrue(dulieu.Rows.Count > 0);
+        }
+
+        [TestMethod]
+        public void Test_()
+        {
+            
         }
     }
 }

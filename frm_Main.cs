@@ -42,7 +42,7 @@ namespace AirTicketBookingManagement
 
         private void frm_Main_Load(object sender, EventArgs e)
         {
-            toolStripLabel3.Text = Describe+username;
+            toolStripLabel3.Text = Describe;
           
         }
 

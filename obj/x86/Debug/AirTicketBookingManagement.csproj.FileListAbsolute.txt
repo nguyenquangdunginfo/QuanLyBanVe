@@ -1,20 +1,3 @@
-C:\Users\vngame\Desktop\AirTicketManager\bin\Debug\QuanLyBanVeMayBay.exe.config
-C:\Users\vngame\Desktop\AirTicketManager\bin\Debug\QuanLyBanVeMayBay.exe
-C:\Users\vngame\Desktop\AirTicketManager\bin\Debug\QuanLyBanVeMayBay.pdb
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_DatVe.resources
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_DoanhThuThang.resources
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_Login.resources
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\BCDoanhThuNam.frm_DoanhThuNam.resources
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_KhachHang.resources
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_Main.resources
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_SanBay.resources
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_ChangBay.resources
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.Properties.Resources.resources
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_ThayDoiPass.resources
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.csproj.GenerateResource.Cache
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\QuanLyBanVeMayBay.exe
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\QuanLyBanVeMayBay.pdb
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_NhanVien.resources
 C:\Users\vngame\Desktop\New folder\AirTicketManager\bin\Debug\QuanLyBanVeMayBay.exe.config
 C:\Users\vngame\Desktop\New folder\AirTicketManager\bin\Debug\QuanLyBanVeMayBay.exe
 C:\Users\vngame\Desktop\New folder\AirTicketManager\bin\Debug\QuanLyBanVeMayBay.pdb
@@ -34,7 +17,23 @@ C:\Users\vngame\Desktop\New folder\AirTicketManager\obj\x86\Debug\AirTicketBooki
 C:\Users\vngame\Desktop\New folder\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.csproj.GenerateResource.Cache
 C:\Users\vngame\Desktop\New folder\AirTicketManager\obj\x86\Debug\QuanLyBanVeMayBay.exe
 C:\Users\vngame\Desktop\New folder\AirTicketManager\obj\x86\Debug\QuanLyBanVeMayBay.pdb
+C:\Users\vngame\Desktop\AirTicketManager\bin\Debug\QuanLyBanVeMayBay.exe.config
+C:\Users\vngame\Desktop\AirTicketManager\bin\Debug\QuanLyBanVeMayBay.exe
+C:\Users\vngame\Desktop\AirTicketManager\bin\Debug\QuanLyBanVeMayBay.pdb
 C:\Users\vngame\Desktop\AirTicketManager\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_DatVe.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_DoanhThuThang.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_Login.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\BCDoanhThuNam.frm_DoanhThuNam.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_KhachHang.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_Main.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_NhanVien.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_SanBay.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_ChangBay.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.Properties.Resources.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.frm_ThayDoiPass.resources
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.csproj.GenerateResource.cache
 C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.csproj.CoreCompileInputs.cache
 C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.csproj.CopyComplete
-C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\AirTicketBookingManagement.csprojAssemblyReference.cache
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\QuanLyBanVeMayBay.exe
+C:\Users\vngame\Desktop\AirTicketManager\obj\x86\Debug\QuanLyBanVeMayBay.pdb

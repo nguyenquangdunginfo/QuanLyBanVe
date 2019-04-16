@@ -18,21 +18,31 @@ namespace AirTicketTester
 
         // login fail
         [TestMethod]
-        public void Test_Login_Success1()
+        public void Test_Login_Fail01()
         {
             bool rs = frm_login.Login("abc", "123");
             Assert.IsFalse(rs);
         }
+
         // login success
         [TestMethod]
-        public void Test_Login_Success2()
+        public void Test_Login_Success01()
         {
             bool rs = frm_login.Login("admin", "123");
             Assert.IsTrue(rs);
         }
 
 
-        // Ngo lam
+
+
+
+
+
+
+
+
+
+        // Test CSDL
         [TestMethod]
         public void Test_Login_Success()
         {

@@ -22,8 +22,16 @@ namespace AirTicketTester
         {
             bool rs = frm_login.Login("abc", "123");
             Assert.IsFalse(rs);
+            MessageBox.Show("Sai User");
         }
 
+        [TestMethod]
+        public void Test_Login_Fail02()
+        {
+            bool rs = frm_login.Login("dung", "321");
+            Assert.IsFalse(rs);
+            MessageBox.Show("Sai Password");
+        }
         // login success
         [TestMethod]
         public void Test_Login_Success01()

@@ -59,15 +59,6 @@ namespace AirTicketTester
        
 
 
-
-
-
-
-
-
-
-
-
         // Test CSDL
         [TestMethod]
         public void Test_Login_Success02()
@@ -101,7 +92,7 @@ namespace AirTicketTester
             Assert.IsTrue(dulieu.Rows.Count == count_dulieu_tong, mess);
         }
         [TestMethod]
-        public void Test_Login_Fail()
+        public void Test_Login_Fail05()
         {
             Connection conn = new Connection();
             DataTable dulieu = conn.ExecuteData("select * from Account where Username ='admin123' and Password='1234'");

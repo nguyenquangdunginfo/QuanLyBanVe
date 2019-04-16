@@ -16,6 +16,14 @@ namespace AirTicketTester
         private frm_Login frm_login = new frm_Login();
         private frm_Main frm_main;
 
+        // login success
+        [TestMethod]
+        public void Test_Login_Success01()
+        {
+            bool rs = frm_login.Login("admin", "123");
+            Assert.IsTrue(rs);
+        }
+
         // login fail
         [TestMethod]
         public void Test_Login_Fail01()
@@ -48,13 +56,7 @@ namespace AirTicketTester
             Assert.IsFalse(rs);
             MessageBox.Show("User và Pass không đúng");
         }
-        // login success
-        [TestMethod]
-        public void Test_Login_Success01()
-        {
-            bool rs = frm_login.Login("admin", "123");
-            Assert.IsTrue(rs);
-        }
+       
 
 
 
@@ -68,7 +70,7 @@ namespace AirTicketTester
 
         // Test CSDL
         [TestMethod]
-        public void Test_Login_Success()
+        public void Test_Login_Success02()
         {
             Connection conn = new Connection();
             string mess = "kiem tra lai thong tin dang nhap";

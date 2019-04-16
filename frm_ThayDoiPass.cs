@@ -29,7 +29,7 @@ namespace AirTicketBookingManagement
 
         Connection cn = new Connection();
 
-        private int doiMatKhau(string matkhaumoi)
+        public int doiMatKhau(string matkhaumoi)
         {
 
             conn = new SqlConnection(strcon);

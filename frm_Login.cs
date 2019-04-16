@@ -51,7 +51,7 @@ namespace AirTicketBookingManagement
             else if (txtUser.Text == "")
             {
                 rs = false;
-                MessageBox.Show("Vui lòng nhập Username");
+               // MessageBox.Show("Vui lòng nhập Username");
             }
             else if (txtPass.Text == "")
             {

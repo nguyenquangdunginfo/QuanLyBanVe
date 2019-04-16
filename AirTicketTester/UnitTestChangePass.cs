@@ -9,7 +9,7 @@ namespace AirTicketTester
     public class UnitTestChangePass
     {
         [TestMethod]
-        public void Test_ChangePass_Fails()
+        public void Test_ChangePass_Success()
         {
            
         }

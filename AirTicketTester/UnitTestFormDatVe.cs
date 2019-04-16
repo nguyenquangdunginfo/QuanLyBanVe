@@ -25,11 +25,5 @@ namespace AirTicketTester
             DataTable dulieu = conn.ExecuteData("select * from ChiTietDatVe where ISNUMERIC(CMND) > 0 ");
             Assert.IsTrue(dulieu.Rows.Count == count_dulieu_tong, mess);
         }
-
-        [TestMethod]
-        public void Test_SDT_KhongQua11()
-        {
-            
-        }
     }
 }

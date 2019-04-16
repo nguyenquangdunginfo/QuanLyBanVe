@@ -55,11 +55,5 @@ namespace AirTicketTester
             DataTable dulieu = conn.ExecuteData("select * from Account where Username ='admin123' and Password='1234'");
             Assert.IsTrue(dulieu.Rows.Count > 0);
         }
-
-        [TestMethod]
-        public void Test_()
-        {
-            
-        }
     }
 }

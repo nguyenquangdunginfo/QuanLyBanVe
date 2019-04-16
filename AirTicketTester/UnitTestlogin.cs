@@ -40,6 +40,14 @@ namespace AirTicketTester
             Assert.IsFalse(rs);
             MessageBox.Show("User và Pass không được rỗng");
         }
+
+        [TestMethod]
+        public void Test_Login_Fail04()
+        {
+            bool rs = frm_login.Login("administrator", "abc");
+            Assert.IsFalse(rs);
+            MessageBox.Show("User và Pass không đúng");
+        }
         // login success
         [TestMethod]
         public void Test_Login_Success01()

@@ -56,6 +56,7 @@ namespace AirTicketBookingManagement
             else if (txtPass.Text == "")
             {
                 rs = false;
+
                 MessageBox.Show("Vui lòng nhập Password");
             }
             else
@@ -66,6 +67,7 @@ namespace AirTicketBookingManagement
                 txtUser.Clear();
             }
             return rs;
+          
         }
 
 

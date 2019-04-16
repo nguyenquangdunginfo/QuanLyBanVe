@@ -27,7 +27,7 @@ namespace AirTicketTester
         }
 
         [TestMethod]
-        public void Test_CMND_KhongQua12()
+        public void Test_SDT_KhongQua11()
         {
             
         }

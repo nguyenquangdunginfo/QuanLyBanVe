@@ -14,7 +14,6 @@ namespace AirTicketTester
     public class UnitTestLogin
     {
         private frm_Login frm_login = new frm_Login();
-        private frm_Main frm_main;
 
         // login success
         [TestMethod]

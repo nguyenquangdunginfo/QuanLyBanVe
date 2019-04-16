@@ -13,10 +13,20 @@ namespace AirTicketTester
     [TestClass]
     public class UnitTestLogin
     {
-        private frm_Login frm_login;
+        private frm_Login frm_login = new frm_Login();
         private frm_Main frm_main;
 
+        // login fail
+        [TestMethod]
+        public void Test_Login_Success1()
+        {
+            bool rs = frm_login.Login("abc", "123");
+            Assert.IsFalse(rs);
+        }
 
+
+
+        // Ngo lam
         [TestMethod]
         public void Test_Login_Success()
         {

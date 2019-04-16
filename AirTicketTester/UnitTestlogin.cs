@@ -30,7 +30,7 @@ namespace AirTicketTester
         {
             bool rs = frm_login.Login("abc", "123");
             Assert.IsFalse(rs);
-            MessageBox.Show("Sai User");
+           // MessageBox.Show("Sai User");
         }
 
         [TestMethod]
@@ -38,7 +38,7 @@ namespace AirTicketTester
         {
             bool rs = frm_login.Login("dung", "321");
             Assert.IsFalse(rs);
-            MessageBox.Show("Sai Password");
+           // MessageBox.Show("Sai Password");
         }
 
         [TestMethod]
@@ -46,7 +46,7 @@ namespace AirTicketTester
         {
             bool rs = frm_login.Login("", "");
             Assert.IsFalse(rs);
-            MessageBox.Show("User và Pass không được rỗng");
+           // MessageBox.Show("User và Pass không được rỗng");
         }
 
         [TestMethod]
@@ -54,7 +54,7 @@ namespace AirTicketTester
         {
             bool rs = frm_login.Login("administrator", "abc");
             Assert.IsFalse(rs);
-            MessageBox.Show("User và Pass không đúng");
+            //MessageBox.Show("User và Pass không đúng");
         }
        
 
@@ -96,7 +96,7 @@ namespace AirTicketTester
         {
             Connection conn = new Connection();
             DataTable dulieu = conn.ExecuteData("select * from Account where Username ='admin123' and Password='1234'");
-            Assert.IsTrue(dulieu.Rows.Count > 0);
+            Assert.IsFalse(dulieu.Rows.Count > 0);
         }
     }
 }

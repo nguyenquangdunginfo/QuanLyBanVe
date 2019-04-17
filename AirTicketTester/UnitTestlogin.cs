@@ -49,14 +49,12 @@ namespace AirTicketTester
         }
 
         [TestMethod]
-        public void Test_Login_Fail04()
+        public void Login_Fail06()
         {
             bool rs = frm_login.Login("administrator", "abc");
             Assert.IsFalse(rs);
             //MessageBox.Show("User và Pass không đúng");
         }
-       
-
 
         // Test CSDL
         [TestMethod]

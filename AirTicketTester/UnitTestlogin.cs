@@ -55,6 +55,13 @@ namespace AirTicketTester
             Assert.IsFalse(rs);
             //MessageBox.Show("User và Pass không đúng");
         }
+        [TestMethod]
+        public void Test_Login_Fail07()
+        {
+            bool rs = frm_login.Login("", "123");
+            Assert.IsFalse(rs);
+            
+        }
 
         // Test CSDL
         [TestMethod]
@@ -89,7 +96,7 @@ namespace AirTicketTester
             Assert.IsTrue(dulieu.Rows.Count == count_dulieu_tong, mess);
         }
         [TestMethod]
-        public void Test_Login_Fail05()
+        public void Test_Login_Fail005()
         {
             Connection conn = new Connection();
             DataTable dulieu = conn.ExecuteData("select * from Account where Username ='admin123' and Password='1234'");
